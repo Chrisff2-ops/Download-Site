@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    section {
+      margin: 50px;
+    }
+
+    .download-section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    .download-button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .download-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>File Download Center</h1>
+  </header>
+
+  <section>
+    <div class="download-section">
+      <h2>Download File 1</h2>
+      <p>Click the button below to download File 1.</p>
+      <a href="files/file1.zip" class="download-button" download>Download File 1</a>
+    </div>
+
+    <div class="download-section">
+      <h2>Download File 2</h2>
+      <p>Click the button below to download File 2.</p>
+      <a href="files/file2.zip" class="download-button" download>Download File 2</a>
+    </div>
+  </section>
+
+</body>
+</html>
